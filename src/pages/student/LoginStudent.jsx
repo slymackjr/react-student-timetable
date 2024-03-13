@@ -10,7 +10,7 @@ const LoginStudent = () => {
   };
 
   return (
-    <div id="intro-example" className="p-5 text-center bg-image align-items-center">
+    <div id="intro-example" className="text-center bg-image align-items-center mt-5">
       <section>
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
@@ -26,14 +26,14 @@ const LoginStudent = () => {
                         <div className="d-flex flex-row align-items-center mb-3">
                           <i className="fas fa-envelope fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
-                            <input type="text" id="form3Example3c" className="form-control" name="regno" placeholder="Your Registration Number" />
+                            <input type="text" className="form-control" name="regno" placeholder="Your Registration Number" />
                           </div>
                         </div>
 
                         <div className="d-flex flex-row align-items-center mb-3">
                           <i className="fas fa-lock fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
-                            <input type="password" id="form3Example4c" className="form-control" name="password" placeholder="Password" required />
+                            <input type="password" className="form-control" name="password" placeholder="Password" required />
                           </div>
                         </div>
 

@@ -12,7 +12,7 @@ function LoginAdmin() {
   };
 
   return (
-    <div id="intro-example" className="p-5 text-center bg-image align-items-center">
+    <div id="intro-example" className="text-center bg-image align-items-center mt-5">
         <section>
                 <div className="container h-100">
                 <div className="row d-flex justify-content-center align-items-center h-100">
@@ -23,19 +23,18 @@ function LoginAdmin() {
                             <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
                             <p className="text-center h1 fw-bold mb-3 mt-1">Welcome Back Staff!</p>
-                            {error && <p className="text-center text-danger mb-3 mt-3">{error}!</p>}
                             <form className="mx-1 mx-md-4" onSubmit={handleSubmit}>
                                 <div className="d-flex flex-row align-items-center mb-3">
                                 <i className="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                 <div className="form-outline flex-fill mb-0">
-                                    <input type="email" id="form3Example3c" value={email} onChange={(e) => setEmail(e.target.value)} className="form-control" placeholder="Your email" />
+                                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="form-control" placeholder="Your email" />
                                 </div>
                                 </div>
 
                                 <div className="d-flex flex-row align-items-center mb-3">
                                 <i className="fas fa-lock fa-lg me-3 fa-fw"></i>
                                 <div className="form-outline flex-fill mb-0">
-                                    <input type="password" id="form3Example4c" value={password} onChange={(e) => setPassword(e.target.value)} className="form-control" placeholder="Password" />
+                                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="form-control" placeholder="Password" />
                                 </div>
                                 </div>
 

@@ -25,7 +25,7 @@ const CreateNotice = () => {
                     <div className="card-body">
                         <h5 className="card-title">Create Notice</h5>
                         <Link to="/notice-admin">
-                        <button type="button" className="btn btn-outline-success"><i className="bi bi-arrow-left me-2"></i>Notices</button>
+                        <button type="button" className="btn btn-outline-success p-1"><i className="bi bi-arrow-left me-2"></i>Notices</button>
                         </Link>
                         <form onSubmit={handleSubmit} className="mt-4">
                         <div className="row mb-3">

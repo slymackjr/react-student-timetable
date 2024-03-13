@@ -31,7 +31,7 @@ const ShowNotices = () => {
                         <div className="pb-3 d-flex justify-content-between">
                         {/* Add link to navigate back to notices page */}
                         <Link to="/notice-admin">
-                            <button type="button" className="btn btn-outline-success"><i className="bi bi-arrow-left me-2"></i>Notices</button>
+                            <button type="button" className="btn btn-outline-success p-1"><i className="bi bi-arrow-left me-2"></i>Notices</button>
                         </Link>
                         </div>
                         <div className="row d-flex justify-content-center">

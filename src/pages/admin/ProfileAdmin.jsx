@@ -100,7 +100,7 @@ const ProfileAdmin = () => {
                                     <div className="tab-pane fade profile-edit pt-3" id="profile-edit">
                                         <form onSubmit={handleSubmit}>
                                             <div className="row mb-3">
-                                                <label for="profileImage" className="col-md-4 col-lg-3 col-form-label">Profile Image</label>
+                                                <label htmlFor="profileImage" className="col-md-4 col-lg-3 col-form-label">Profile Image</label>
                                                 <div className="col-md-8 col-lg-9">
                                                     <img src={lable} alt="Profile" className="rounded-circle img-fluid w-50" />
                                                     <div className="pt-2">
@@ -110,39 +110,39 @@ const ProfileAdmin = () => {
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
-                                                <label for="fullName" className="col-md-4 col-lg-3 col-form-label">Full Name</label>
+                                                <label htmlFor="fullName" className="col-md-4 col-lg-3 col-form-label">Full Name</label>
                                                 <div className="col-md-8 col-lg-9">
-                                                    <input name="name" type="text" className="form-control" value={dummyData.name} />
+                                                    <input name="name" type="text" className="form-control" value={dummyData.name} onChange={(e) => console.log(e.target.value)}/>
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
-                                                <label for="Username" className="col-md-4 col-lg-3 col-form-label">Staff ID</label>
+                                                <label htmlFor="Username" className="col-md-4 col-lg-3 col-form-label">Staff ID</label>
                                                 <div className="col-md-8 col-lg-9">
-                                                    <input name="staff_id" type="text" className="form-control" value={dummyData.staff_id} />
+                                                    <input name="staff_id" type="text" className="form-control" value={dummyData.staff_id} onChange={(e) => console.log(e.target.value)}/>
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
-                                                <label for="Job" className="col-md-4 col-lg-3 col-form-label">Job</label>
+                                                <label htmlFor="Job" className="col-md-4 col-lg-3 col-form-label">Job</label>
                                                 <div className="col-md-8 col-lg-9">
-                                                    <input name="job_title" type="text" className="form-control" value={dummyData.job_title} />
+                                                    <input name="job_title" type="text" className="form-control" value={dummyData.job_title} onChange={(e) => console.log(e.target.value)}/>
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
-                                                <label for="Country" className="col-md-4 col-lg-3 col-form-label">Department</label>
+                                                <label htmlFor="Country" className="col-md-4 col-lg-3 col-form-label">Department</label>
                                                 <div className="col-md-8 col-lg-9">
-                                                    <input name="staff_department" type="text" className="form-control" value={dummyData.staff_department} />
+                                                    <input name="staff_department" type="text" className="form-control" value={dummyData.staff_department} onChange={(e) => console.log(e.target.value)}/>
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
-                                                <label for="Address" className="col-md-4 col-lg-3 col-form-label">Faculty</label>
+                                                <label htmlFor="Address" className="col-md-4 col-lg-3 col-form-label">Faculty</label>
                                                 <div className="col-md-8 col-lg-9">
-                                                    <input name="staff_faculty" type="text" className="form-control" value={dummyData.staff_faculty} />
+                                                    <input name="staff_faculty" type="text" className="form-control" value={dummyData.staff_faculty} onChange={(e) => console.log(e.target.value)}/>
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
-                                                <label for="Email" className="col-md-4 col-lg-3 col-form-label">Email</label>
+                                                <label htmlFor="Email" className="col-md-4 col-lg-3 col-form-label">Email</label>
                                                 <div className="col-md-8 col-lg-9">
-                                                    <input name="email" type="email" className="form-control" value={dummyData.email} />
+                                                    <input name="email" type="email" className="form-control" value={dummyData.email} onChange={(e) => console.log(e.target.value)}/>
                                                 </div>
                                             </div>
                                             <div className="text-center">
@@ -154,13 +154,13 @@ const ProfileAdmin = () => {
                                     <div className="tab-pane fade pt-3" id="profile-change-password">
                                         <form onSubmit={handleSubmit}>
                                             <div className="row mb-3">
-                                                <label for="currentPassword" className="col-md-4 col-lg-3 col-form-label">Current Password</label>
+                                                <label htmlFor="currentPassword" className="col-md-4 col-lg-3 col-form-label">Current Password</label>
                                                 <div className="col-md-8 col-lg-9">
                                                     <input name="password" type="password" className="form-control" />
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
-                                                <label for="newPassword" className="col-md-4 col-lg-3 col-form-label">New Password</label>
+                                                <label htmlFor="newPassword" className="col-md-4 col-lg-3 col-form-label">New Password</label>
                                                 <div className="col-md-8 col-lg-9">
                                                     <input name="newpassword" type="password" className="form-control" />
                                                 </div>

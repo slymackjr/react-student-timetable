@@ -53,13 +53,13 @@ const GroupSession = () => {
                 <div className="table-responsive">
                   <div className="pb-3">
                     {/* Link to the previous page */}
-                    <Link to={"/year-group"} className="btn btn-outline-danger"><i className="bi bi-arrow-left me-2"></i>Groups</Link>
+                    <Link to={"/year-group"} className="btn btn-outline-danger p-1"><i className="bi bi-arrow-left me-2"></i>Groups</Link>
                   </div>
                   <div className="pb-3  d-flex justify-content-between">
                     {/* Add period Link */}
-                    <Link to={"/add-session"} className="btn btn-outline-success"><i className="bi bi-plus me-2"></i>Add Period</Link>
+                    <Link to={"/add-session"} className="btn btn-outline-success p-1"><i className="bi bi-plus me-2"></i>Add Period</Link>
                     {/* Show class sessions Link */}
-                    <Link to={"/class-admin"} className="btn btn-outline-success"><i className="bi bi-calendar me-2"></i>Class Sessions</Link>
+                    <Link to={"/class-admin"} className="btn btn-outline-success p-1"><i className="bi bi-calendar me-2"></i>Class Sessions</Link>
                   </div>
                   <table id="example" className="table table-striped data-table">
                     <thead>
@@ -87,7 +87,7 @@ const GroupSession = () => {
                           <td>{table.room_name}</td>
                           <td>
                             {/* Link to view details */}
-                            <Link name="user" className="btn btn-outline-secondary">View Details</Link>
+                            <Link name="user" to={"/edit-session"} className="btn btn-outline-secondary">View Details</Link>
                             {/* Form to delete session */}
                             <form onSubmit={handleSubmit}>
                               <button type="submit" className="btn btn-outline-success">Delete Details</button>

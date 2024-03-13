@@ -27,9 +27,9 @@ function CourseYear() {
                     </button>
                 </Link>
                 </div>
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                 {years.map((yearData, index) => (
-                    <div className="col-md-4 mb-3" key={index}>
+                    <div className="col-lg-3 col-md-4 mb-3 max-w-280" key={index}>
                     <div className={`card ${yearData.color} text-white h-100`}>
                         <div className="card-body d-flex flex-column align-items-center justify-content-center">
                         <i className={`bi ${yearData.icon} display-4 mb-3`}></i>

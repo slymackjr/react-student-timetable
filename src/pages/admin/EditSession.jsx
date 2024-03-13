@@ -1,5 +1,6 @@
 import React from 'react';
 import { AdminNav } from '../../components';
+import { Link } from 'react-router-dom';
 
 function EditSession() {
   // Dummy data for demonstration
@@ -28,7 +29,6 @@ function EditSession() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add your submission logic here
-    console.log('Form submitted');
   };
 
   return (
@@ -46,15 +46,15 @@ function EditSession() {
                     <div className="card">      
                     <div className="card-body">
                         <h5 className="card-title">Edit Session</h5>
-                        <a href="/group-session">
-                        <button type="button" className="btn btn-outline-success"><i className="bi bi-arrow-left me-2"></i>Classes</button>
-                        </a>
+                        <Link to="/group-session">
+                        <button type="button" className="btn btn-outline-success p-1"><i className="bi bi-arrow-left me-2"></i>Classes</button>
+                        </Link>
                         {/* General Form Elements */}
                         <form onSubmit={handleSubmit} className="mt-4">
                         <div className="row mb-3">
                             <label className="col-sm-2 col-form-label fw-bolder">Week Day</label>
                             <div className="col-sm-5">
-                            <select className="form-select" value={dayOfWeek} required>
+                            <select className="form-select" defaultValue={dayOfWeek} required>
                                 <option disabled>Select a week day</option>
                                 <option value="Monday">Monday</option>
                                 <option value="Tuesday">Tuesday</option>
@@ -69,22 +69,22 @@ function EditSession() {
                         <div className="row mb-3">
                             <label className="col-sm-2 col-form-label fw-bolder">Start Time</label>
                             <div className="col-sm-5">
-                            <input type="time" className="form-control" value={startTime} required />
+                            <input type="time" className="form-control" defaultValue={startTime} required/>
                             </div>
                         </div>                    
                         <div className="row mb-3">
                             <label className="col-sm-2 col-form-label fw-bolder">End Time</label>
                             <div className="col-sm-5">
-                            <input type="time" className="form-control" value={endTime} required />
+                            <input type="time" className="form-control" defaultValue={endTime} required/>
                             </div>
                         </div>                        
                         <div className="row mb-3">
                             <label className="col-sm-2 col-form-label fw-bolder">Module name</label>
                             <div className="col-sm-5">
-                            <select className="form-select" value={moduleName} required>
+                            <select className="form-select" defaultValue={moduleName} required>
                                 <option disabled>Select a module</option>
                                 {modules.map((module, index) => (
-                                <option key={index} value={module.module_name}>{module.module_name}</option>
+                                <option key={index} defaultValue={module.module_name}>{module.module_name}</option>
                                 ))}
                             </select>
                             </div>
@@ -92,7 +92,7 @@ function EditSession() {
                         <div className="row mb-3">
                             <label className="col-sm-2 col-form-label fw-bolder">Session Type</label>
                             <div className="col-sm-5">
-                            <select className="form-select" value={sessionType} required>
+                            <select className="form-select" defaultValue={sessionType} required>
                                 <option disabled>Select a Session Type</option>
                                 <option value="Lecture">Lecture</option>
                                 <option value="Tutorial">Tutorial</option>
@@ -102,7 +102,7 @@ function EditSession() {
                         <div className="row mb-3">
                             <label className="col-sm-2 col-form-label fw-bolder">Venue</label>
                             <div className="col-sm-5">
-                            <select className="form-select" value={roomName} required>
+                            <select className="form-select" defaultValue={roomName} required>
                                 <option disabled>Select a venue</option>
                                 {venues.map((venue, index) => (
                                 <option key={index} value={venue.venue_name}>{venue.venue_name}</option>
@@ -113,7 +113,7 @@ function EditSession() {
                         <div className="row mb-3">
                             <label className="col-sm-2 col-form-label fw-bolder">Lecturer's name</label>
                             <div className="col-sm-5">
-                            <input type="text" className="form-control" value={lecturerName} required />
+                            <input type="text" className="form-control" defaultValue={lecturerName} required/>
                             </div>
                         </div>                                               
                         <div className="row mb-3">

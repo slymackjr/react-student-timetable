@@ -4,7 +4,7 @@ import { lable } from '../assets';
 
 function Home() {
   return (
-    <div id="intro-example" className="p-5 text-center bg-image align-items-center">
+    <div id="intro-example" className="text-center bg-image align-items-center mt-5">
       <section>
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">

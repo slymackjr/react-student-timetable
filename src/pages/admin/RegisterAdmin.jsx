@@ -25,7 +25,7 @@ const RegisterAdmin = () => {
   };
 
   return (
-    <div id="intro-example" className="p-5 text-center bg-image align-items-center">
+    <div id="intro-example" className="text-center bg-image align-items-center mt-5">
       <section>
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
@@ -41,7 +41,6 @@ const RegisterAdmin = () => {
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="text"
-                              id="form3Example1c"
                               name="name"
                               className="form-control"
                               placeholder="Your Name"
@@ -57,7 +56,6 @@ const RegisterAdmin = () => {
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="text"
-                              id="form3Example1c"
                               name="staff_id"
                               className="form-control"
                               placeholder="Your Job's ID"
@@ -73,7 +71,6 @@ const RegisterAdmin = () => {
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="text"
-                              id="form3Example1c"
                               name="job_title"
                               className="form-control"
                               placeholder="Your Job Title"
@@ -88,7 +85,6 @@ const RegisterAdmin = () => {
                           <i className="fas fa-building fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
                             <select
-                              id="form3Example1c"
                               name="staff_department"
                               className="form-select"
                               value={formData.staff_department}
@@ -107,7 +103,6 @@ const RegisterAdmin = () => {
                           <i className="fas fa-university fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
                             <select
-                              id="form3Example1c"
                               name="staff_faculty"
                               className="form-select"
                               value={formData.staff_faculty}
@@ -126,7 +121,6 @@ const RegisterAdmin = () => {
                           <i className="fas fa-venus-mars fa-lg me-3 fa-fw"></i>
                           <div className="form-outline flex-fill mb-0">
                             <select
-                              id="form3Example1c"
                               name="gender"
                               className="form-select"
                               value={formData.gender}
@@ -144,7 +138,6 @@ const RegisterAdmin = () => {
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="email"
-                              id="form3Example3c"
                               name="email"
                               className="form-control"
                               placeholder="Your email"
@@ -160,7 +153,6 @@ const RegisterAdmin = () => {
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="password"
-                              id="form3Example4c"
                               name="password"
                               className="form-control"
                               placeholder="Password"
@@ -176,7 +168,6 @@ const RegisterAdmin = () => {
                           <div className="form-outline flex-fill mb-0">
                             <input
                               type="password"
-                              id="form3Example4cd"
                               name="password_confirmation"
                               className="form-control"
                               placeholder="Confirm Password"

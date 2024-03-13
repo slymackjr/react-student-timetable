@@ -33,8 +33,8 @@ const NoticeAdmin = () => {
                         <div className="table-responsive">
                         <div className="pb-3 d-flex justify-content-between">
                             {/* Dummy buttons */}
-                            <Link to={"/create-notice"} className="btn btn-outline-success"><i className="bi bi-plus me-2"></i>Create Notice</Link>
-                            <Link to={"/show-notice"} className="btn btn-outline-success"><i className="bi bi-chat me-2"></i>Show Notices</Link>
+                            <Link to={"/create-notice"} className="btn btn-outline-success p-1"><i className="bi bi-plus me-2"></i>Create Notice</Link>
+                            <Link to={"/show-notice"} className="btn btn-outline-success p-1"><i className="bi bi-chat me-2"></i>Show Notices</Link>
                         </div>
                         <table className="table table-striped data-table">
                             <thead>

@@ -56,7 +56,7 @@ const AdminNav = ({activeDashboard,activeNotices,activeProfile,activeTimetable})
                 <div className="text-muted small fw-bold text-uppercase px-3 mb-3">Interface</div>
               </li>
               <li>
-                <Link to="/classes-admin" className={`nav-link px-3 ${activeTimetable || defaultClasses}`}>
+                <Link to={"/classes-admin"} className={`nav-link px-3 ${activeTimetable || defaultClasses}`}>
                   <span className="me-2"> <i className="bi bi-book"></i></span>
                   <span>Classes Timetable</span>
                 </Link>

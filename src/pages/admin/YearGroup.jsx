@@ -28,10 +28,10 @@ const YearGroup = () => {
                     <button type="button" name="cid" className="btn btn-outline-success"><i className="bi bi-arrow-left me-2"></i>Years</button>
                 </Link>
                 </div>
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                 {/* Render group cards */}
                 {groups.map((group) => (
-                    <div key={group.id} className="col-md-3 mb-3">
+                    <div key={group.id} className="col-lg-3 col-md-4 mb-3 max-w-280">
                     <div className={`card ${group.color} text-white h-100`}>
                         <div className="card-body d-flex flex-column align-items-center justify-content-center">
                         <i className="bi bi-people display-4 mb-3"></i> {/* Group icon */}
