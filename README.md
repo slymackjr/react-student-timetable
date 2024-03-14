@@ -69,7 +69,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The online Student Timetable system is initially bringing students their periodic schedules of the everyday classes and receive notices of any particular information which is crucial to them. Students can get to adjust their daily activities to fit the class schedules and fix it if there occurs a change in the class schedule without any problems.
+The online Student Timetable system is initially designed through react js, Bootstrap CSS framework, JavaScript and other related stylesheets to bring the design to life with faster responsive time and minimal loading time across pages.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -78,7 +78,7 @@ The online Student Timetable system is initially bringing students their periodi
 
 * [![HTML Version][HTML-shield]][HTML-url]
 * [![CSS Version][CSS-shield]][CSS-url]
-* [![Laravel Version][Laravel.com]][Laravel-url]
+* [![React JS Version][React.js]][React.js-url]
 * [![Bootstrap Version][Bootstrap.com]][Bootstrap-url]
 * [![JavaScript Version][JavaScript-shield]][JavaScript-url]
 
@@ -110,16 +110,7 @@ This is an example of how you may give instructions on setting up your project l
 This Online Timetable System can be used in universities , colleges and even schools to help student be up-to-date with the activities taking place at the education institute.
 
 <div style="overflow-x: auto; white-space: nowrap;">
-  <img src="screenshots/image1.png" alt="Image 1" style="display: inline-block; max-width: 100%;">
-  <img src="screenshots/image2.png" alt="Image 1" style="display: inline-block; max-width: 27%;">
-  <img src="screenshots/image3.png" alt="Image 1" style="display: inline-block; max-width: 100%;">
-  <img src="screenshots/image4.png" alt="Image 1" style="display: inline-block; max-width: 27%;">
-  <img src="screenshots/image5.png" alt="Image 2" style="display: inline-block; max-width: 100%;">
-  <img src="screenshots/image6.png" alt="Image 3" style="display: inline-block; max-width: 27%;">
-  <img src="screenshots/image7.png" alt="Image 3" style="display: inline-block; max-width: 100%;">
-  <img src="screenshots/image8.png" alt="Image 3" style="display: inline-block; max-width: 27%;">
-  <img src="screenshots/image9.png" alt="Image 3" style="display: inline-block; max-width: 100%;">
-  <img src="screenshots/image10.png" alt="Image 3" style="display: inline-block; max-width: 27%;">
+  <img src="screenshots/image7.png" alt="Image 1" style="display: inline-block; max-width: 100%;">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -219,5 +210,9 @@ I would like to thank these wonderful tools that enabled me to make it all happe
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [JavaScript-shield]: https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 [JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[React.js]: https://img.shields.io/badge/React.js-Latest-61DAFB?style=for-the-badge&logo=react&logoColor=white
+[React.js-url]: https://reactjs.org
+
+
 
 
